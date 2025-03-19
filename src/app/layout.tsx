@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { store } from "@/redux/store";
 // import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,7 +25,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Provider store={store}>{children}</Provider>
+        <div className="container my-2 mx-auto px-4 sm:px-6 lg:px-8 bg-gray-100">
+          <Provider store={store}>{children}</Provider>
+        </div>
       </body>
     </html>
   );

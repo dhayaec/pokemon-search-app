@@ -4,7 +4,7 @@ import axios from "axios";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getImage } from "../../lib/utils";
+import { getImage } from "../lib/utils";
 import { fetchPokemonTypes, fetchPokemons } from "../redux/pokemonSlice";
 import { AppDispatch, RootState } from "../redux/store";
 
