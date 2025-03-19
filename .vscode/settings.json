@@ -1,0 +1,63 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.sortImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/node_modules/": true,
+    "pnpm-yaml.json": true,
+    "**/.next": true,
+    "**/dist/": true,
+    "next-env.d.ts": true,
+    ".husky": true,
+    "*.tsbuildinfo": true,
+    "*.lock": true,
+    "**/coverage": true
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "cSpell.words": [
+    "headlessui",
+    "heroicons",
+    "imgix",
+    "Pokemons",
+    "semibold",
+    "Stockr",
+    "tailwindcss",
+    "tailwindui",
+    "testid",
+    "vercel"
+  ]
+}
